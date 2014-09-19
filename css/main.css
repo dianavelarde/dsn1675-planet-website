@@ -1,0 +1,64 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+header {
+background-color: #ccc;
+overflow: hidden;
+
+}
+
+.title {
+text-align: center;
+margin: 0;
+}
+
+.nav {
+display: block;
+padding: 0;
+}
+
+.nav ul {
+list-style-type: none;
+}
+
+.nav a {
+text-decoration: none;
+color: #0074D9;
+}
+
+
+@media only screen and (min-width:20em) {
+
+.nav li {
+display: inline-block;
+overflow: auto;
+width: 600px;
+margin: 0 auto;
+}
+
+.nav {
+text-align: left;
+
+}
+
+}
+
+@media only screen and (min-width:40em) {
+
+.title {
+float: left;
+}
+
+.nav {
+float: left;
+}
+
+}
+
+
+
+
+
