@@ -16,7 +16,17 @@ html{
     text-size-adjust: 100%;
 }
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
 header {
+    margin: 0;
     background-color: #ccc;
     overflow: hidden;
 }
@@ -27,11 +37,14 @@ body {
 }
 
 .nav{
+    margin: 1em 0;
     padding: 0;
     list-style-type: none;
 }
 
 .nav a {
+    display: block;
+    padding: 0;
     text-decoration: none;
     color: #0074D9;
     margin: 0;
