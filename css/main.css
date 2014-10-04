@@ -31,9 +31,10 @@ header {
     overflow: hidden;
 }
 
-h2{
+.border {
     background-color: #e2e2e2;
     text-align: center;
+
 }
 
 body {
@@ -44,7 +45,7 @@ body {
 .nav{
     margin: 1em 0;
     padding: 0;
-    list-style-type: nonevb;
+    list-style-type: none;
 }
 
 .nav a {
@@ -52,7 +53,10 @@ body {
     padding: 0;
     text-decoration: none;
     color: #0074D9;
-    margin: 0;
+}
+
+.nav li {
+    display: inline;
 }
 
 .title {
@@ -75,10 +79,11 @@ body {
 @media only screen and (min-width:40em) {
 
     .title {
-      float: left;
+      float: left
+    }
+    
+    .nav {
+        text-align: left;
     }
 
-    .nav li {
-        float: left;
-    }
 }
