@@ -26,15 +26,15 @@ img {
 }
 
 header {
-    margin: 0;
     background-color: #ccc;
     overflow: hidden;
 }
 
-.border {
+.border p {
     background-color: #e2e2e2;
     text-align: center;
-
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -50,13 +50,8 @@ body {
 
 .nav a {
     display: block;
-    padding: 0;
     text-decoration: none;
     color: #0074D9;
-}
-
-.nav li {
-    display: inline;
 }
 
 .title {
@@ -77,13 +72,13 @@ body {
 }
 
 @media only screen and (min-width:40em) {
-
+    
     .title {
-      float: left
+      float: left;
     }
     
     .nav {
-        text-align: left;
+        float: left;
     }
 
 }
