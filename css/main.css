@@ -30,6 +30,17 @@ header {
     overflow: hidden;
 }
 
+.figs {
+    background-color: #efefef
+}
+.characteristics {
+    background-color: #e2e2e2;
+}
+
+.footer {
+    background-color: #ccc;
+}
+
 .border p {
     background-color: #e2e2e2;
     text-align: center;
