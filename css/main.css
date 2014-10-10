@@ -41,10 +41,9 @@ header {
     background-color: #ccc;
 }
 
-.border p {
+.border {
     background-color: #e2e2e2;
     text-align: center;
-    margin: 0 0 1em;
 }
 
 body {
