@@ -73,11 +73,11 @@ body {
 @media only screen and (min-width:40em) {
     
     .title {
-      float: left;
+        float: left;
     }
     
     .nav {
-        float: left;
+        text-align: center;
     }
 
 }
