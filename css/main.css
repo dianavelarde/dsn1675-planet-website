@@ -139,7 +139,10 @@ body {
 .title {
     text-align: center;
     margin: 0;
-    padding: 0;
+}
+
+.moons {
+    background-color: #e2e2e2;
 }
 
 @media only screen and (min-width:20em) {
@@ -174,7 +177,4 @@ body {
     .copyright{
          text-align: left;
   }
-}
-
-@media only screen and (min-width:60em) {
 }
