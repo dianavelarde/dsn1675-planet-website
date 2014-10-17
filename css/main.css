@@ -17,6 +17,7 @@ html{
 }
 
 @media only screen and (min-width:60em) {
+    
     html {
         font-size: 110%;
     }
@@ -27,6 +28,15 @@ html{
     .copyright{
          text-align: left;
   }
+    dt {
+        float: left;
+        clear: left;
+        width: 10em;
+    }
+    
+    dd {
+        float: left;
+    }
     
 }
 
@@ -41,6 +51,17 @@ html{
     .copyright{
          text-align: left;
   }
+    
+    dt {
+        float: left;
+        clear: left;
+        width: 10em;
+    }
+    
+    dd {
+        float: left;
+    }
+    
 }
 
 @media only screen and (min-width:120em) {
@@ -54,6 +75,17 @@ html{
     .copyright{
          text-align: left;
   }
+      
+    dt {
+        float: left;
+        clear: left;
+        width: 10em;
+    }
+    
+    dd {
+        float: left;
+    }
+    
 }
 
 *, *:before, *:after {
