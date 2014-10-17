@@ -16,6 +16,46 @@ html{
     text-size-adjust: 100%;
 }
 
+@media only screen and (min-width:60em) {
+    html {
+        font-size: 110%;
+    }
+    .nav-footer {
+        text-align: right;
+    }
+    
+    .copyright{
+         text-align: left;
+  }
+    
+}
+
+@media only screen and (min-width:90em) {
+    html {
+        font-size: 120%;
+    }
+    .nav-footer {
+        text-align: right;
+    }
+    
+    .copyright{
+         text-align: left;
+  }
+}
+
+@media only screen and (min-width:120em) {
+    html {
+        font-size: 130%;
+    }
+    .nav-footer {
+        text-align: right;
+    }
+    
+    .copyright{
+         text-align: left;
+  }
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -79,6 +119,11 @@ body {
   .nav {
      text-align: center;
   }
+   
+  .copyright{
+      text-align: center;
+  }
+        
 }
 
 @media only screen and (min-width:40em) {
@@ -90,5 +135,14 @@ body {
     .nav {
         text-align: center;
     }
+        .nav-footer {
+        text-align: right;
+    }
+    
+    .copyright{
+         text-align: left;
+  }
+}
 
+@media only screen and (min-width:60em) {
 }
