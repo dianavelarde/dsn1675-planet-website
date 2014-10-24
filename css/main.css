@@ -157,8 +157,8 @@ a:focus {
     .copyright{
          text-align: left;
   }
-}
 
+}
 
 @media only screen and (min-width:60em) {
     
@@ -229,5 +229,4 @@ a:focus {
     dd {
         float: left;
     }
-    
 }
