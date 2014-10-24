@@ -9,10 +9,16 @@
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <header>
+    
+<ul class="skip-links">
+    <li><a href="#main">skip main content</a></li>
+    <li><a href="#navigation">skip to navigation</a></li>
+</ul>
+    
+    <header role="banner">
         <h1 class="title peta gutter-half">Mars</h1>
         
-        <nav>
+        <nav id="navigation" role="navigation">
             <ul class="nav mega">
                 <li class="gutter-half"><a href ="index.html">Planet</a></li>
                 <li class="gutter-half"><a href ="moons.html">Moon</a></li>
@@ -21,7 +27,7 @@
         </nav>
     </header>
     
-    <article>
+    <article id="main" role="main">
         
         <div class= "grid pad-bottom">
             <div class=" border unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
@@ -100,9 +106,11 @@
         </div>
         
         <div>
+            
+            </article>
         
         <footer class="footer grid push-0">
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-4">
+            <div role="contentinfo" class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-4">
                 <p class="copyright micro gutter-half push-0 island-half">© 2014 Venus Planetary Consortium</p>
             </div>
             <div class="gutter-half unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-3-4">
@@ -116,9 +124,6 @@
             </div>
         </footer>
     </div>
-        
-    </article>
-
 </body>
 </html>
 
