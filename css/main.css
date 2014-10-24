@@ -21,71 +21,18 @@ html{
     html {
         font-size: 110%;
     }
-    .nav-footer {
-        text-align: right;
-    }
-    
-    .copyright{
-         text-align: left;
-  }
-    dt {
-        float: left;
-        clear: left;
-        width: 10em;
-    }
-    
-    dd {
-        float: left;
-    }
-    
 }
 
 @media only screen and (min-width:90em) {
     html {
         font-size: 120%;
     }
-    .nav-footer {
-        text-align: right;
-    }
-    
-    .copyright{
-         text-align: left;
-  }
-    
-    dt {
-        float: left;
-        clear: left;
-        width: 10em;
-    }
-    
-    dd {
-        float: left;
-    }
-    
 }
 
 @media only screen and (min-width:120em) {
     html {
         font-size: 130%;
-    }
-    .nav-footer {
-        text-align: right;
-    }
-    
-    .copyright{
-         text-align: left;
-  }
-      
-    dt {
-        float: left;
-        clear: left;
-        width: 10em;
-    }
-    
-    dd {
-        float: left;
-    }
-    
+    }   
 }
 
 *, *:before, *:after {
@@ -210,4 +157,77 @@ a:focus {
     .copyright{
          text-align: left;
   }
+}
+
+
+@media only screen and (min-width:60em) {
+    
+    html {
+        font-size: 110%;
+    }
+    .nav-footer {
+        text-align: right;
+    }
+    
+    .copyright{
+         text-align: left;
+  }
+    dt {
+        float: left;
+        clear: left;
+        width: 10em;
+    }
+    
+    dd {
+        float: left;
+    }
+    
+}
+
+@media only screen and (min-width:90em) {
+    html {
+        font-size: 120%;
+    }
+    .nav-footer {
+        text-align: right;
+    }
+    
+    .copyright{
+         text-align: left;
+  }
+    
+    dt {
+        float: left;
+        clear: left;
+        width: 10em;
+    }
+    
+    dd {
+        float: left;
+    }
+    
+}
+
+@media only screen and (min-width:120em) {
+    html {
+        font-size: 130%;
+    }
+    .nav-footer {
+        text-align: right;
+    }
+    
+    .copyright{
+         text-align: left;
+  }
+      
+    dt {
+        float: left;
+        clear: left;
+        width: 10em;
+    }
+    
+    dd {
+        float: left;
+    }
+    
 }
