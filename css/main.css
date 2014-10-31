@@ -99,6 +99,8 @@ a:focus {
     font-size: 1.25em;
 }
 
+/*=======================FORMS========================*/
+
 .skip-links a:focus {
     top:0;
 }
@@ -125,6 +127,10 @@ a:focus {
     background-color: #e2e2e2;
 }
 
+.section-light {
+    background-color: #efefef;
+}
+
 label {
     display: block;
 }
@@ -133,7 +139,7 @@ input +label {
     display: inline-block;
 }
 
-.form-p{
+.italic{
     font-style: italic;
 }
 
@@ -151,9 +157,21 @@ button {
     font-size: 1.5em;
 }
 
+.button {
+    text-align: center;
+}
+
 .radio {
     white-space: nowrap;
 }
+
+.input-field{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 45em;
+}
+
+/*=======================ACCESSIBILITY========================*/
 
 @media only screen and (min-width:20em) {
 
@@ -168,6 +186,9 @@ button {
   .copyright{
       text-align: center;
   }
+      .footer {
+        text-align: center;
+    }
         
 }
 
@@ -187,6 +208,14 @@ button {
     .copyright{
          text-align: left;
   }
+     
+    .footer {
+        text-align: left;
+    }
+    
+    .footer nav{
+        float: right;
+    }
 
 }
 
