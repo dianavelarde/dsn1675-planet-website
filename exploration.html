@@ -25,24 +25,79 @@
                 </ul>
             </nav>
         </header>
+    
+    
         
         <h2 class="border yotta island-half"> Exploration</h2>
         
-        <div>
-            <footer class="footer grid push-0 ">
-                <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-4">
-                    <p class="micro gutter-half island-half push-0">© 2014 Venus Planetary Consortium</p>
-                </div>
-                <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-                    <nav>
-                        <ul class=" milli nav gutter-half ">
-                            <li><a href="index.html" >Planet</a></li>
-                            <li><a href="moons.html">Moons</a></li>
-                            <li><a href="exploration.html">Exploration</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </footer>
+        <div class=" border section-medium island center">
+            <h3 class="exa">Join Venus's Exploration Team</h3>
+            <p class="terra">Are you interested in exploring Venus with a group of extermely talented people? Sign up below!</p>
         </div>
+    
+    <form class="island section-light borde" method="post">    
+
+        <div>
+            <label for="name">Name</label>
+            <input id="name" class="basic">
+        </div>
+
+        <div>
+            <label for="email" class="pad-t">E-mail</label>
+            <input type="email" id="email" class="basic">
+        </div>
+
+        <div>
+            <label for="age" class="pad-t">Age</label>
+            <input type="number" id="age" class="basic">
+        </div>
+
+        <div class="pad-b">
+            <p class="pad-t form-p">Your level of awsomeness: </p>
+            
+            <span class="radio">
+                <input type="radio" id="meh" name="level-of-awesomeness">
+                <label for="meh">Meh...</label>
+            </span>
+            
+            <span class="radio">
+                <input type="radio" id="pretty-good" name="level-of-awesomeness">
+                <label for="pretty-good">Pretty Good</label>
+            </span>
+            
+            <span class="radio">
+                <input type="radio" id="super" name="level-of-awesomeness">
+                <label for="super">Super!</label>
+            </span>
+        </div>
+
+        <div>
+            <label for="explain">Explain why you deserve to go:</label>
+            <textarea id="explain"></textarea>
+        </div>
+
+        <div class="button">
+             <button type="submit">Sign Up</button>
+        </div>
+    </form>
+    
+    
+    
+    <div>
+        <footer class="footer grid push-0 ">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-4">
+                <p class="micro gutter-half island-half push-0">© 2014 Venus Planetary Consortium</p> 
+            </div>
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+                <nav>
+                    <ul class=" milli nav gutter-half ">
+                        <li><a href="index.html" >Planet</a></li>
+                        <li><a href="moons.html">Moons</a></li>
+                        <li><a href="exploration.html">Exploration</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </div>
     </body>
 </html>
