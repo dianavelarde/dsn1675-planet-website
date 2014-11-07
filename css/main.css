@@ -9,14 +9,16 @@ html{
     margin: 0;
     padding: 0;
     
-    font: normal 100%/1.5 sans-serif;
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
 }
 
+html{
 font: normal 100%/1.5 "Merriweather",serif;
+}
+
 @media only screen and (min-width:60em) {
     
     html {
@@ -78,6 +80,17 @@ a:active {
     IT'S NOT OKAY TO REMOVE IT FOR KEYBOARD USERS!!!!!!!
     */
     outline: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited { 
+    background-color: #0074D9;
+    
+    color: #fff;
 }
 
 a:focus {
