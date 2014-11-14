@@ -48,23 +48,23 @@ img {
 }
 
 header {
-    background-color: #ccc;
+    background-color: #4E4133;
     overflow: hidden;
 }
 
 .figs {
-    background-color: #efefef
+    background-color: #A28E79;
 }
 .characteristics {
-    background-color: #e2e2e2;
+    background-color: #A28E79;
 }
 
 .footer {
-    background-color: #ccc;
+    background-color:#4E4133;
 }
 
 .border {
-    background-color: #e2e2e2;
+    background-color: #A28E79;
     text-align: center;
 }
 
@@ -88,7 +88,7 @@ a:active {
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited { 
-    background-color: #0074D9;
+    background-color: #A28E79;
     
     color: #fff;
 }
@@ -128,7 +128,7 @@ a:focus {
 .nav a {
     display: block;
     text-decoration: none;
-    color: #0074D9;
+    color: #FFFFFF;
 }
 
 
@@ -138,11 +138,11 @@ a:focus {
 }
 
 .moons {
-    background-color: #e2e2e2;
+    background-color: #A28E79;
 }
 
 .section-light {
-    background-color: #efefef;
+    background-color: #A28E79;
 }
 
 label {
